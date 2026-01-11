@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sahana R — Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GSAP -->
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+</head>
+
+<body data-theme="light">
+
+<nav>
+  <div class="toggle" onclick="toggleTheme()">🌙</div>
+</nav>
+
+<section class="hero">
+  <div class="hero-title">
+
+    <span class="word">Portf</span>
+
+    <span class="o-wrap">
+      <img src="media/o (2).png" alt="Sahana" />
+
+      <svg class="arrow" viewBox="0 0 220 120">
+        <path
+          d="M10 100 C 80 20, 150 20, 210 40"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        />
+        <polygon points="200,35 215,40 200,45" fill="currentColor" />
+      </svg>
+
+      <div class="arrow-label">
+        <span class="name">Sahana R</span>
+      </div>
+    </span>
+
+    <span class="word">lio</span>
+
+  </div>
+
+  <div class="role">UI/UX Designer</div>
+</section>
+
+<section class="about">
+  <div class="about-image">
+    <img src="media/profile1.jpg" alt="Sahana" />
+    <span class="journey">Engineer → Designer</span>
+  </div>
+
+  <div class="about-text">
+     No, I didn’t go to art school. I am actually an engineer. I chose Computer Science because I was always curious about how things work
+   behind the screen. How does Google know what to show us when we ask a question?
+I then spent four years learning how systems work, only to realize this wasn’t what I wanted to do long-term. As a self-taught artist, 
+I wanted a life where curiosity, creativity and fun is part of the job description which is when i came across UI/UX designs and never looked back.
+
+ 
+  </div>
+</section>
+
+
+<section>
+  <h2>Case Studies</h2>
+    <div class="case irctc ">
+  <div class="case-text">
+    <h3 class="case-title">Blender Blitz</h3>
+    <p >
+      Blender Blitz is a fun, nostalgic smoothie app inspired by Papa’s Freezeria. <br><br>
+      It lets users customize drinks with favorite ingredients, earn rewards, and relive café game vibes. 
+      Designed in Figma focusing on creativity, simplicity, and interactive user experience.
+    </p>
+   <a href="https://rsahana469.github.io/Blender-blitz-case-study/" class="view-link" target="_blank">
+  “ View case study ”
+</a>
+
+  </div>
+
+  <div class="case-images stack">
+    <img src="media/bb1.png" alt="" >
+    <img src="media/bb2.png" alt=""  >
+    <!-- <img src="media/bb3.png" alt=""> -->
+  </div>
+</div>
+
+
+    
+  
+  <div class="case irctc reverse">
+  <div class="case-text">
+    <h3 class="case-title">Redesign — IRCTC</h3>
+    <p>
+      Redesigned a complex government booking app aimed at removing friction in the booking 
+      flow, improving visual hierarchy and reducing the overwhelm new users experience, resulting 
+      in a calmer, more intuitive train-booking experience.
+    </p>
+    <a href="https://rsahana469.github.io/irctc-redesign/" class="view-link" target="_blank">
+  “ View case study ”
+</a>
+  </div>
+
+  <div class="case-images stack">
+    <img src="media/irctc2.png" alt="">
+    <!-- <img src="media/irctc1.png" alt=""> -->
+    <img src="media/irctc3.png" alt="">
+  </div>
+</div>
+
+</section>
+
+
+
+<section class="client-projects">
+  <h2>Client Projects</h2>
+  <p style="margin:auto; text-align:center; max-width: none;">
+    Websites designed and developed during my internship,
+    now maintained as demos and repositories.
+  </p>
+
+  <div class="carousel">
+    <button class="carousel-btn prev">←</button>
+
+    <div class="carousel-track">
+      <a href="https://rsahana469.github.io/kts/" target="_blank">  <img src="media/c1.png" alt="Client project 1"> </a>
+      <a href="https://rsahana469.github.io/omkar/" target="_blank">  <img src="media/c2.png" alt="Client project 1"> </a>
+      <a href="https://rsahana469.github.io/athenna-lms/" target="_blank">  <img src="media/c3.png" alt="Client project 1"> </a>
+      <a href="https://rsahana469.github.io/medreg/" target="_blank">  <img src="media/c4.png" alt="Client project 1"> </a>
+      <a href="https://rsahana469.github.io/gurutva-academy/" target="_blank">  <img src="media/c5.png" alt="Client project 1"> </a>
+      
+    </div>
+
+    <button class="carousel-btn next">→</button>
+  </div>
+</section>
+
+
+
+<section>
+  <h2>UI Explorations</h2>
+  <p style="margin:auto; text-align:center;">
+    A collection of UI screens focused on hierarchy,
+    layout, and interface details.
+  </p>
+
+  <div class="carousel">
+    <button class="carousel-btn prev">←</button>
+
+    <div class="carousel-track ui-carousel " >
+      <img src="media/ui 1.png" class="ui mobile" />      
+      <img src="media/ui 2.png" class="ui desktop" />
+      <img src="media/ui8.png" class="ui mobile" />
+      <img src="media/ui 3.png" class="ui desktop" />
+      <img src="media/ui7.png" class="ui mobile" />
+      <img src="media/ui6.png" class="ui desktop"/>
+      <img src="media/ui9.png" class="ui mobile" />
+      <img src="media/ui5.png" class="ui desktop"/>
+      <img src="media/ui10.png" class="ui mobile" />    
+      <img src="media/ui 4.png" class="ui desktop"/>
+    </div>
+
+    <button class="carousel-btn next">→</button>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <div>
+      <h3>Tools</h3>
+      <ul>
+        <li>Figma</li>
+        <li>Canva</li>
+        <li>HTML / CSS</li>
+        <li>GitHub</li>
+        <li>Notion</li>
+        <li>Framer</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>UX Thinking</h3>
+      <ul>
+        <li>User Research</li>
+        <li>User Flows</li>
+        <li>Information Architecture</li>
+        <li>Empathy Mapping</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>Design Execution</h3>
+      <ul>
+        <li>Wireframing</li>
+        <li>High-fidelity UI</li>
+        <li>Prototyping</li>
+        <li>Responsive Design</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="process-linear">
+  <h2>How I approach design</h2>
+   <p class="process-note" style="max-width: none;">
+    This isn’t a rigid sequence — I move back and forth between steps
+    as insights evolve and decisions sharpen.
+  </p>
+
+  <div class="process-track">
+    <div class="step">Understand<br><span>users, context, constraints</span></div>
+    <span class="connector"></span>
+
+    <div class="step">Define<br><span>the real problem</span></div>
+    <span class="connector"></span>
+
+    <div class="step">Ideate<br><span>explore directions</span></div>
+    <span class="connector"></span>
+
+    <div class="step">Wireframe<br><span>structure and flow</span></div>
+    <span class="connector"></span>
+
+    <div class="step">Design<br><span>visual clarity and hierarchy</span></div>
+    <span class="connector"></span>
+
+    <div class="step">Prototype<br><span>interaction and feedback</span></div>
+    <span class="connector"></span>
+
+    <div class="step">Refine<br><span>iterate with intention</span></div>
+  </div>
+
+ 
+</section>
+
+
+<section class="contact-figma">
+  <div class="contact-left">
+    <h2>Get in Touch</h2>
+
+   <p class="contact-email">
+    rsahana915@gmail.com
+  <span class="mail-icon">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+      <path d="M4 6h16v12H4z" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.5"/>
+    </svg>
+  </span>
+  
+</p>
+
+    <a class="resume-link" href="https://drive.google.com/file/d/1Y4T3ynGV1ynyzK8YKORaeC--DXx2Gou0/view?usp=sharing" target="_blank">View Resume</a>
+  </div>
+
+  <div class="contact-note">
+    I focus on learning better UX structure,<br />
+    typography, grids and color combinations<br />
+    rather than just UI
+  </div>
+</section>
+
+
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>
